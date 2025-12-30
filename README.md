@@ -25,6 +25,13 @@ The model is trained on labeled car images representing damaged and undamaged ve
 - Best configuration: Single Dropout (0.3), 12 epochs
 - Notably, the best result was achieved **without data augmentation**
 
+## Model Performance
+The following figure shows training and validation accuracy and loss curves for the best-performing configuration. The close alignment between training and validation curves indicates strong generalization without overfitting.
+
+![Training and Validation Curves](images/model_performance.png)
+
+The model converges smoothly and achieves high performance without requiring data augmentation.
+
 ## Tools & Technologies
 - Python
 - TensorFlow / Keras
